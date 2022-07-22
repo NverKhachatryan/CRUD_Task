@@ -1,0 +1,10 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 200,
+    "max": 200
+  },
+  "mongodb": "mongodb://localhost:27017/backend"
+}
