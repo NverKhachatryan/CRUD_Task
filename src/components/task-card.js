@@ -45,7 +45,7 @@ const TaskCard = ({ contact }) => {
                 <Icon name="phone" /> {contact.phone}
               </p>
             </Card.Description>
-            {/* <Card.Description>
+            <Card.Description>
               <p>
                 <Icon name="home" /> {contact.address.street} {contact.address.suite} {contact.address.sity} {contact.address.zipcode} {contact.address.geo.lat} {contact.address.geo.lng}
               </p>
@@ -69,7 +69,7 @@ const TaskCard = ({ contact }) => {
               <p>
                 <Icon name='tag' /> Business Sense: {contact.company.bs}
               </p>
-            </Card.Description> */}
+            </Card.Description> 
           </Card.Content> 
           <Card.Content extra>
             <div className="ui two buttons">
